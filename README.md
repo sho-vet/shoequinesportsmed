@@ -50,7 +50,7 @@ supabase/schema.sql    esquema completo + políticas de Row Level Security
 
 **Ya implementado:**
 
-- Identidad visual (blanco / negro / navy + acento terracota opcional), tipografía Arial, diseño basado en tarjetas.
+- Identidad visual (blanco / negro / navy + acento terracota opcional), tipografía Arial, diseño basado en tarjetas, logo real de SHO integrado (navbar, favicon, imagen social).
 - Flujo de autenticación completo (login, logout, middleware que protege `/portal`).
 - Portal de propietarios: listado de caballos, ficha del paciente, visor interactivo de imágenes diagnósticas (zoom), chat interno en tiempo real (Supabase Realtime).
 - Historia clínica y vacunaciones por caballo.
@@ -68,7 +68,7 @@ supabase/schema.sql    esquema completo + políticas de Row Level Security
 **Pendiente de tu parte (no podíamos hacerlo sin tus credenciales/decisiones):**
 
 - Crear el proyecto de Supabase y pegar sus llaves en `.env.local`.
-- Reemplazar los SVG de marcador de posición (`public/images/*.svg`, `src/components/Logo.tsx`) con el logo real y fotografías reales de los caballos.
+- Reemplazar las fotografías de marcador de posición (`public/images/*.svg`) con fotos reales de los caballos. El logo real ya está en `public/brand/` y en uso (`src/components/Logo.tsx`, favicon, imagen social) — si luego lo necesitas sobre fondo oscuro, pide una exportación en PNG/SVG transparente, porque hoy es una imagen con fondo blanco.
 - Añadir las URLs oficiales reales de MARE, ANIMAL SPORTS y TIENDA HERRAJES en `src/components/home/PartnersStrip.tsx` (hoy apuntan a `#`).
 - Configurar los enlaces reales de pago por país en `.env.local` (`NEXT_PUBLIC_PAYMENT_LINK_*`) — no integramos una pasarela de pago real porque requiere tus propias cuentas y llaves de API.
 - (Opcional) `NEXT_PUBLIC_GA_MEASUREMENT_ID` para Google Analytics 4, y las llaves de reCAPTCHA si quieres una segunda capa anti-spam además del honeypot.

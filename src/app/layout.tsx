@@ -12,9 +12,8 @@ export const metadata: Metadata = {
   },
   description:
     "Clínica de medicina deportiva equina: diagnóstico, rehabilitación y seguimiento clínico para caballos de alto rendimiento.",
-  icons: {
-    icon: "/icon.svg",
-  },
+  // Favicon/apple-touch-icon are picked up automatically from
+  // src/app/icon.png and src/app/apple-icon.png (Next.js file convention).
   manifest: "/manifest.webmanifest",
 };
 
