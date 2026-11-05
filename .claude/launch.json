@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sho-dev",
+      "runtimeExecutable": "/Users/valentinahernandezotero/.nvm/versions/node/v26.13.0/bin/node",
+      "runtimeArgs": [
+        "/Users/valentinahernandezotero/Downloads/SHO/node_modules/next/dist/bin/next",
+        "dev",
+        "/Users/valentinahernandezotero/Downloads/SHO",
+        "-p",
+        "3000"
+      ],
+      "port": 3000
+    }
+  ]
+}
