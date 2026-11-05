@@ -27,7 +27,7 @@ export default function PrivacidadPage() {
         <section>
           <h2 className="text-lg font-semibold text-navy">1. Responsable del tratamiento</h2>
           <p className="mt-2">
-            SHO Equine Sports Medicine ("SHO", "nosotros") es responsable del tratamiento de los datos
+            SHO Equine Sports Medicine (&ldquo;SHO&rdquo;, &ldquo;nosotros&rdquo;) es responsable del tratamiento de los datos
             personales recolectados a través de este sitio y del Portal de Propietarios.
           </p>
         </section>
