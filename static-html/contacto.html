@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto | SHO Equine Sports Medicine</title>
+  <meta name="description" content="Conoce a SHO Equine Sports Medicine y escríbenos para resolver tus dudas." />
+  <link rel="icon" href="images/logo-mark.png" />
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img class="navbar-logo" src="images/logo-mark.png" alt="" />
+        <span class="navbar-title">SHO <span>Equine Sports Medicine</span></span>
+      </a>
+
+      <nav class="navbar-links" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="educacion-continuada.html">Educación Continuada</a>
+        <a href="empresas-colaboradoras.html">Empresas Colaboradoras</a>
+        <a href="agendar-consulta.html">Agendar Consulta</a>
+        <a href="contacto.html" class="active">Contacto</a>
+      </nav>
+
+      <div class="navbar-right">
+        <a href="acceso-propietarios.html" class="btn btn-primary">Acceso Propietarios</a>
+        <button class="navbar-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">☰</button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" class="navbar-mobile" aria-label="Navegación principal móvil">
+      <div class="container">
+        <a href="index.html">Inicio</a>
+        <a href="educacion-continuada.html">Educación Continuada</a>
+        <a href="empresas-colaboradoras.html">Empresas Colaboradoras</a>
+        <a href="agendar-consulta.html">Agendar Consulta</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sobre nosotros / about me -->
+    <section class="section-tight">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Quiénes somos</p>
+          <h2>Sobre SHO Equine Sports Medicine</h2>
+          <p>
+            Texto de ejemplo — reemplázalo con tu propia historia: formación, años de experiencia,
+            especialidad en medicina deportiva equina y filosofía de trabajo con propietarios y jinetes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Contacto</p>
+          <h2>Hablemos del rendimiento de tu caballo</h2>
+          <p>Responde el formulario y nuestro equipo te contactará en menos de 24 horas hábiles.</p>
+        </div>
+
+        <div class="max-w-form mt-8">
+          <div class="card">
+            <form onsubmit="event.preventDefault(); alert('Esto es una maqueta estática — conéctala a tu backend real.');">
+              <div class="field">
+                <label for="nombre">Nombre completo</label>
+                <input id="nombre" type="text" required />
+              </div>
+              <div class="field">
+                <label for="email">Correo electrónico</label>
+                <input id="email" type="email" required />
+              </div>
+              <div class="field">
+                <label for="telefono">Teléfono (opcional)</label>
+                <input id="telefono" type="tel" />
+              </div>
+              <div class="field">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 SHO Equine Sports Medicine. Todos los derechos reservados.</p>
+      <nav class="footer-links" aria-label="Enlaces legales">
+        <a href="empresas-colaboradoras.html">Empresas Colaboradoras</a>
+        <a href="agendar-consulta.html">Agendar Consulta</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="nav.js?v=2"></script>
+</body>
+</html>

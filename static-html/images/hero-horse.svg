@@ -1,0 +1,14 @@
+<svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición para una fotografía de un caballo de deporte de alto rendimiento">
+  <rect x="40" y="40" width="520" height="420" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5" />
+
+  <!-- Minimal geometric horse-head mark, centered -->
+  <g transform="translate(300,210)" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-10,-70 C25,-70 45,-45 45,-15 C45,10 30,25 30,45 L35,75 L-45,75 L-40,20 C-55,10 -62,-10 -55,-30 C-48,-52 -30,-70 -10,-70 Z" />
+    <path d="M-18,-66 L-30,-95 M8,-68 L5,-98" />
+    <circle cx="18" cy="-28" r="3" fill="#ffffff" stroke="none" />
+  </g>
+
+  <text x="300" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#ffffff" fill-opacity="0.55">
+    Fotografía real de un caballo de deporte — pendiente de reemplazo
+  </text>
+</svg>
